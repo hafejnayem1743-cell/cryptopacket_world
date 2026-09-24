@@ -1,0 +1,6 @@
+{
+  "name": "CryptoPacket",
+  "description": "Discover community-shared crypto red packets on CryptoPacket. Explore active packets and follow the available access steps to reach the original destination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

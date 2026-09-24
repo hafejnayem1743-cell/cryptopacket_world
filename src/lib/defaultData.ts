@@ -1,0 +1,90 @@
+import type { Post, SiteSettings } from '../types/index';
+
+export const DEFAULT_SETTINGS: SiteSettings = {
+  siteName: 'CryptoPacket',
+  siteDescription: 'Discover community-shared crypto red packets on CryptoPacket. Explore active packets and follow the available access steps to reach the original destination.',
+  portfolioUrl: 'https://developersohelrana.pages.dev',
+  portfolioButtonText: 'Built by Sohel Rana',
+  firstAdUrl: 'https://sponsor.cryptopacket.net/access-step-1',
+  secondAdUrl: 'https://sponsor.cryptopacket.net/access-step-2',
+  adsEnabled: true,
+  verificationDuration: 10,
+  maintenanceMode: false,
+  seoTitle: 'CryptoPacket — Discover Crypto Red Packets',
+  seoDescription: 'Discover community-shared crypto red packets on CryptoPacket. Explore active packets and follow the available access steps to reach the original destination.',
+  socialImage: '/pwa-512x512.png',
+  footerText: 'CryptoPacket is an independent community platform and is not affiliated with or endorsed by Binance.',
+  defaultThumbnail: '/images/crypto_packet_card_1_1790158641663.jpg',
+  automationCron: '0 */6 * * *',
+  automationStatus: 'Not Configured',
+  lastAutomationRun: null,
+  nextAutomationRun: null,
+  disclaimerText: 'CryptoPacket is an independent community website. We do not operate Binance, guarantee red packet rewards, or control third-party advertising links. Verify all external URLs before taking action.'
+};
+
+export const SEED_POSTS: Post[] = [
+  {
+    id: 'pkt_101',
+    slug: 'exclusive-crypto-red-packet',
+    title: 'Exclusive Crypto Red Packet',
+    description: 'Limited community red packet. Open the packet and follow the steps to continue.',
+    destinationUrl: 'https://s.binance.com/9xK4m2Pq',
+    thumbnail: '/images/crypto_packet_card_1_1790158641663.jpg',
+    status: 'published',
+    featured: true,
+    views: 1240,
+    createdAt: '2026-09-20T10:00:00.000Z',
+    updatedAt: '2026-09-23T04:00:00.000Z',
+    publishedAt: '2026-09-20T10:00:00.000Z',
+    shortLabel: 'HOT',
+    category: 'Binance Red Packet'
+  },
+  {
+    id: 'pkt_102',
+    slug: 'daily-reward-crypto-packet',
+    title: 'Daily Reward Crypto Packet',
+    description: 'Fresh community-shared crypto drop. Clean sponsored verification path with instant unlock.',
+    destinationUrl: 'https://s.binance.com/7bK3x9Lt',
+    thumbnail: '/images/crypto_packet_card_2_1790158657449.jpg',
+    status: 'published',
+    featured: false,
+    views: 892,
+    createdAt: '2026-09-21T10:00:00.000Z',
+    updatedAt: '2026-09-23T04:00:00.000Z',
+    publishedAt: '2026-09-21T10:00:00.000Z',
+    shortLabel: 'DAILY',
+    category: 'Binance Red Packet'
+  },
+  {
+    id: 'pkt_103',
+    slug: 'prime-multi-token-red-packet',
+    title: 'Prime Multi-Token Red Packet',
+    description: 'Community red packet drop shared by contributors. Step-verified link preparation protects destination integrity.',
+    destinationUrl: 'https://s.binance.com/R3t6Y8vB',
+    thumbnail: '/images/hero_redpacket_crypto_1790158620199.jpg',
+    status: 'published',
+    featured: false,
+    views: 645,
+    createdAt: '2026-09-19T10:00:00.000Z',
+    updatedAt: '2026-09-22T10:00:00.000Z',
+    publishedAt: '2026-09-19T10:00:00.000Z',
+    shortLabel: 'POPULAR',
+    category: 'Community Drop'
+  },
+  {
+    id: 'pkt_104',
+    slug: 'weekend-flash-crypto-packet',
+    title: 'Weekend Flash Crypto Packet',
+    description: 'Instant community drop for the weekend. Fast unlock procedure with clean safety checks.',
+    destinationUrl: 'https://s.binance.com/P4w9Q2zN',
+    thumbnail: '/images/crypto_packet_card_1_1790158641663.jpg',
+    status: 'published',
+    featured: false,
+    views: 420,
+    createdAt: '2026-09-22T10:00:00.000Z',
+    updatedAt: '2026-09-23T04:00:00.000Z',
+    publishedAt: '2026-09-22T10:00:00.000Z',
+    shortLabel: 'FLASH',
+    category: 'Binance Red Packet'
+  }
+];
